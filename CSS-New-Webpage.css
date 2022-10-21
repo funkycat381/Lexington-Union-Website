@@ -1,0 +1,85 @@
+#HTML-assignment2
+
+/*
+vars and color
+ */
+#opener{
+    /* define the color pallete */
+    --primary-color: #364e7d;
+    --secondary-color: #184E7D;
+    --accent-color: #eccc74;
+    --text-color: #F8F1FF;
+    --second-accent: #241909;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    background-color: #F8F1FF;
+    color: #F8F1FF;
+    line-height: 1.5;
+}
+
+img{
+    padding: 1% !important
+}
+
+h1 {
+    color: #eccc74;
+}
+
+.navbar {
+    background-color: #eccc74;
+    color: #F8F1FF;
+}
+
+.navbar-item {
+    color: #F8F1FF;
+}
+
+.container-fluid {
+    background-color: #364e7d;
+    padding: 1%;
+}
+
+.the-body {
+    max-width: 75vw 60vw;
+    margin: 0 auto;
+    text-align: start;
+    display: flex;
+    align-items: stretch-center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 2.5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2.5%;
+}
+
+.lea-description{
+    font-size: large;
+}
+
+.navbar-item{
+    color: #F8F1FF
+  }
+
+div.the-body>div:nth-of-type(odd) {
+    background: #364e7d;
+}
+
+div.the-body>div:nth-of-type(even) {
+    background: #184E7D;
+}
+
+.sub-section{
+    background:#1b568b;
+    padding: .5%;
+}
+
+.unit-box{
+    margin: 1%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
